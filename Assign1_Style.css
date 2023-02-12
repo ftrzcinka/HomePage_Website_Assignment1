@@ -1,3 +1,44 @@
-﻿body
+body
 {
+    font-family: 'Times New Roman'
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    border-style: double;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 38px;
+}
+
+.subTitle {
+    text-align: right;
+    display: inline;
+    border-style: dotted;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.listItem {
+    font-size: x-large;
+    padding: 6px;
+    margin-left: 45px;
+}
+
+.hpImage1{
+    margin-right: 40px;
+    position: relative;
+    top: -130px
+}
+
+.hpImage2 {
+    margin-right: 40px;
+}
+
+.hpImage3 {
+    margin-right: 30px;
+    position: relative;
+    left: 705px;
+    top: 110px
 }

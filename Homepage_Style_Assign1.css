@@ -7,8 +7,11 @@ body
     text-align: center;
     padding: 10px;
     border-style: double;
-    margin-left: 45px;
-    margin-right: 45px;
+    border-block-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 38px;
 }
 
@@ -16,29 +19,75 @@ body
     text-align: right;
     display: inline;
     border-style: dotted;
+    border-block-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
-.listItem {
+.listItemLG {
     font-size: x-large;
     padding: 6px;
-    margin-left: 45px;
+    margin-left: 58px;
+    margin-right: 1200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.listItemCG {
+    font-size: x-large;
+    padding: 6px;
+    margin-left: 58px;
+    margin-right: 1200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: firebrick;
+}
+
+.listItemGTB {
+    font-size: x-large;
+    padding: 6px;
+    margin-left: 58px;
+    margin-right: 1200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: forestgreen;
 }
 
 .hpImage1{
-    margin-right: 40px;
+    margin-right: 10px;
     position: relative;
-    top: -130px
+    top: -250px;
 }
 
 .hpImage2 {
     margin-right: 40px;
+    position: relative;
+    top: -110px;
+    right: 40px;
 }
 
 .hpImage3 {
     margin-right: 30px;
     position: relative;
-    left: 705px;
-    top: 110px
+    left: 820px;
+    top: 35px;
+}
+
+.disclaimerTitle {
+    margin-left: 40px;
+    position: relative;
+    width: 400px;
+    top: 15px;
+}
+
+.disclaimerText {
+    margin-left: 60px;
+    position: absolute;
+    width: 310px;
 }

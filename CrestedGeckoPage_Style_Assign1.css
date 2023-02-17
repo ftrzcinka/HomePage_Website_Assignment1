@@ -1,0 +1,79 @@
+﻿body {
+    font-family: 'Times New Roman'
+}
+
+.titleCG {
+    text-align: center;
+    padding: 10px;
+    border-style: ridge;
+    border-block-width: 8px;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-color: firebrick;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 38px;
+    position: relative;
+    top: -30px;
+}
+
+.subTitleCG {
+    text-align: right;
+    display: inline;
+    border-style: dotted;
+    padding: 10px;
+    margin-left: 120px;
+    position: relative;
+    top: -30px;
+}
+
+table {
+    border: 1px solid black;
+    padding: 5px;
+    margin-block: 22px;
+    margin-left: 40px;
+    position: relative;
+    top: -30px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    margin-block: 22px;
+    margin-left: 40px;
+}
+
+.paraText {
+    position: relative;
+    margin-right: 40px;
+    margin-left: 720px;
+    top: -310px;
+    left: -30px;
+    font-size: 16px;
+    text-indent: 40px;
+    line-height: 1.5
+}
+
+.HabImg {
+    position: relative;
+    left: 30px;
+    top: -330px;
+}
+
+.HabImgCap {
+    margin-left: 32px;
+    position: relative;
+    top: -325px;
+    left: 30px;
+}
+
+.CresImg {
+    position: relative;
+    left: -220px;
+    top: -600px;
+}
+
+.CresImgCap {
+    position: relative;
+    top: -362px;
+}

@@ -1,23 +1,23 @@
-body {
+﻿body {
     font-family: 'Times New Roman'
 }
 
-.titleLG {
+.titleCG {
     text-align: center;
     padding: 10px;
     border-style: ridge;
     border-block-width: 8px;
     border-right-width: 8px;
     border-left-width: 8px;
-    border-color: gold;
+    border-color: firebrick;
     margin-left: 220px;
     margin-right: 220px;
     margin-bottom: 38px;
-    position:relative;
-    top:-30px;
+    position: relative;
+    top: -30px;
 }
 
-.subTitleLG {
+.subTitleCG {
     text-align: right;
     display: inline;
     border-style: dotted;
@@ -57,23 +57,23 @@ th, td {
 .HabImg {
     position: relative;
     left: 30px;
-    top: -360px;
+    top: -330px;
 }
 
 .HabImgCap {
     margin-left: 32px;
     position: relative;
-    top: -355px;
+    top: -325px;
     left: 30px;
 }
 
-.leoImg {
+.CresImg {
     position: relative;
     left: -220px;
-    top: -586px;
+    top: -600px;
 }
 
-.leoImgCap {
+.CresImgCap {
     position: relative;
-    top: -386px;
+    top: -362px;
 }
